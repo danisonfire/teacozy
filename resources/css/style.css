@@ -61,6 +61,7 @@ text-decoration: underline;
 .content {
 
 display: flex;
+flex-direction: column;
 align-items: center;
 padding-top: 69px;
 width: 1200px;
@@ -68,7 +69,7 @@ margin: auto;
 
 }
 
-/* mission */
+/* mission section */
 
 .mission {
 
@@ -90,5 +91,37 @@ height: auto;
 background-color: black;
 align-items: center;
 
+
+}
+
+/* featured section */
+
+.featured {
+
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+justify-content: space-between;
+width: 1000px;
+
+}
+
+.featured span {
+
+display: inline-block;
+
+}
+
+.tea {
+
+display: inline-block;
+width: 300px;
+
+}
+
+.tea img {
+
+width: 300px;
+height: 200px;
 
 }
