@@ -99,7 +99,6 @@ align-items: center;
 .featured {
 
 display: flex;
-flex-direction: column;
 flex-grow: 1;
 justify-content: space-between;
 width: 1000px;
@@ -109,6 +108,7 @@ width: 1000px;
 .featured span {
 
 display: inline-block;
+width: 100%;
 
 }
 
